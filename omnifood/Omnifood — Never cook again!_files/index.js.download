@@ -1,0 +1,20 @@
+let johnheight= 1.95;
+let markmass = 78;
+let markheight = 1.69;
+
+function bmi(mass,height) {
+    let BMI = mass / height**2;
+    console.log(BMI);
+}
+
+let johnbmi = bmi(johnmass,johnheight);
+let markbmi = bmi(markmass,markheight);
+
+if(johnbmi>markbmi)
+{
+    console.log(`john bmi (${johnbmi}) is greater than mark bmi ${markbmi}`);
+}
+else (markbmi>johnbmi)
+{
+    console.log(`mark bmi (${markbmi}) is greater than john bmi ${johnbmi}`);
+}
